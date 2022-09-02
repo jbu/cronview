@@ -23,10 +23,12 @@ $ ./cronview "*/15 0 1,15 * 1-5 /usr/bin/find"
 
 ## Installation
 
-There is a `Pipfile`, so if you have `pipenv` then
+The main program should run with a standard python3.
+
+If you want to try the type chekers etc then there is a `Pipfile`, so if you have `pipenv` then
 
 ```bash
-$ pipenv install
+$ pipenv install --dev
 $ pipenv shell
 ```
 will set up the correct environment
